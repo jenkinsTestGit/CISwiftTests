@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07D0A3DD1BED56A4FA5B9E0A /* Pods_CiSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB0747978BDAADED17720B68 /* Pods_CiSwiftTests.framework */; };
+		223519E0FF22E0D5CE27A7F8 /* Pods_CiSwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 622B11390732E23814AD1FD4 /* Pods_CiSwiftUITests.framework */; };
+		4495716AF86EAF6C2F67FC9E /* Pods_CiSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFFCA8333D96DC6A5E88BF4E /* Pods_CiSwift.framework */; };
+		5EE3B8A7F749360FEA30925F /* Pods_CiSwift_KIFTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EC7B3163D03861214A5AB5C /* Pods_CiSwift_KIFTest.framework */; };
+		B031026C1D7EA892006CCA5A /* KIFTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B031026B1D7EA892006CCA5A /* KIFTest.swift */; };
+		B03102761D7EA9E5006CCA5A /* KIF-Briding-Header.m in Sources */ = {isa = PBXBuildFile; fileRef = B03102751D7EA9E5006CCA5A /* KIF-Briding-Header.m */; };
+		B03102841D7EB8E5006CCA5A /* LelaTest-320x568@2x-iphone,iOS9.3.png in Resources */ = {isa = PBXBuildFile; fileRef = B03102831D7EB8E5006CCA5A /* LelaTest-320x568@2x-iphone,iOS9.3.png */; };
+		B03102851D7EB8E5006CCA5A /* LelaTest-320x568@2x-iphone,iOS9.3.png in Resources */ = {isa = PBXBuildFile; fileRef = B03102831D7EB8E5006CCA5A /* LelaTest-320x568@2x-iphone,iOS9.3.png */; };
+		B03102861D7EB8E5006CCA5A /* LelaTest-320x568@2x-iphone,iOS9.3.png in Resources */ = {isa = PBXBuildFile; fileRef = B03102831D7EB8E5006CCA5A /* LelaTest-320x568@2x-iphone,iOS9.3.png */; };
+		B03102871D7EB8E5006CCA5A /* LelaTest-320x568@2x-iphone,iOS9.3.png in Resources */ = {isa = PBXBuildFile; fileRef = B03102831D7EB8E5006CCA5A /* LelaTest-320x568@2x-iphone,iOS9.3.png */; };
 		B0FDE8D21D7D760A001DD43D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FDE8D11D7D760A001DD43D /* AppDelegate.swift */; };
 		B0FDE8D41D7D760A001DD43D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FDE8D31D7D760A001DD43D /* ViewController.swift */; };
 		B0FDE8D71D7D760A001DD43D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0FDE8D51D7D760A001DD43D /* Main.storyboard */; };
@@ -17,6 +27,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		B031026E1D7EA892006CCA5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0FDE8C61D7D760A001DD43D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0FDE8CD1D7D760A001DD43D;
+			remoteInfo = CiSwift;
+		};
 		B0FDE8E31D7D760A001DD43D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B0FDE8C61D7D760A001DD43D /* Project object */;
@@ -34,6 +51,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2DBCD66B4F7700CC4D46D073 /* Pods-CiSwift-KIFTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CiSwift-KIFTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-CiSwift-KIFTest/Pods-CiSwift-KIFTest.release.xcconfig"; sourceTree = "<group>"; };
+		5414E623678AC2A632547626 /* Pods-CiSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CiSwiftTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CiSwiftTests/Pods-CiSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		622B11390732E23814AD1FD4 /* Pods_CiSwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CiSwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6692B08603BE0C996A5C3E58 /* Pods-CiSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CiSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CiSwift/Pods-CiSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		6EC7B3163D03861214A5AB5C /* Pods_CiSwift_KIFTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CiSwift_KIFTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93D946A2631D799261282249 /* Pods-CiSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CiSwiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CiSwiftTests/Pods-CiSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
+		944CBF4C8035A84E2D54DFFD /* Pods-CiSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CiSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-CiSwift/Pods-CiSwift.release.xcconfig"; sourceTree = "<group>"; };
+		B03102691D7EA891006CCA5A /* KIFTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KIFTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B031026B1D7EA892006CCA5A /* KIFTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KIFTest.swift; sourceTree = "<group>"; };
+		B031026D1D7EA892006CCA5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B03102731D7EA9E5006CCA5A /* KIFTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KIFTest-Bridging-Header.h"; sourceTree = "<group>"; };
+		B03102741D7EA9E5006CCA5A /* KIF-Briding-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KIF-Briding-Header.h"; sourceTree = "<group>"; };
+		B03102751D7EA9E5006CCA5A /* KIF-Briding-Header.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "KIF-Briding-Header.m"; sourceTree = "<group>"; };
+		B03102831D7EB8E5006CCA5A /* LelaTest-320x568@2x-iphone,iOS9.3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LelaTest-320x568@2x-iphone,iOS9.3.png"; sourceTree = "<group>"; };
 		B0FDE8CE1D7D760A001DD43D /* CiSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CiSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0FDE8D11D7D760A001DD43D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B0FDE8D31D7D760A001DD43D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,13 +78,27 @@
 		B0FDE8ED1D7D760A001DD43D /* CiSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CiSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0FDE8F11D7D760A001DD43D /* CiSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CiSwiftUITests.swift; sourceTree = "<group>"; };
 		B0FDE8F31D7D760A001DD43D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C49FA90234F69FAD4FCFBA94 /* Pods-CiSwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CiSwiftUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CiSwiftUITests/Pods-CiSwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DE5EF84C07EF54DE8D06DDFA /* Pods-CiSwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CiSwiftUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CiSwiftUITests/Pods-CiSwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E170C6C8DD1BC263B29127DE /* Pods-CiSwift-KIFTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CiSwift-KIFTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CiSwift-KIFTest/Pods-CiSwift-KIFTest.debug.xcconfig"; sourceTree = "<group>"; };
+		FB0747978BDAADED17720B68 /* Pods_CiSwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CiSwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFFCA8333D96DC6A5E88BF4E /* Pods_CiSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CiSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		B03102661D7EA891006CCA5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EE3B8A7F749360FEA30925F /* Pods_CiSwift_KIFTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B0FDE8CB1D7D760A001DD43D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4495716AF86EAF6C2F67FC9E /* Pods_CiSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07D0A3DD1BED56A4FA5B9E0A /* Pods_CiSwiftTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,19 +114,51 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				223519E0FF22E0D5CE27A7F8 /* Pods_CiSwiftUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AE414ED657AB285D94E74EF6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6692B08603BE0C996A5C3E58 /* Pods-CiSwift.debug.xcconfig */,
+				944CBF4C8035A84E2D54DFFD /* Pods-CiSwift.release.xcconfig */,
+				E170C6C8DD1BC263B29127DE /* Pods-CiSwift-KIFTest.debug.xcconfig */,
+				2DBCD66B4F7700CC4D46D073 /* Pods-CiSwift-KIFTest.release.xcconfig */,
+				5414E623678AC2A632547626 /* Pods-CiSwiftTests.debug.xcconfig */,
+				93D946A2631D799261282249 /* Pods-CiSwiftTests.release.xcconfig */,
+				C49FA90234F69FAD4FCFBA94 /* Pods-CiSwiftUITests.debug.xcconfig */,
+				DE5EF84C07EF54DE8D06DDFA /* Pods-CiSwiftUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B031026A1D7EA891006CCA5A /* KIFTest */ = {
+			isa = PBXGroup;
+			children = (
+				B03102831D7EB8E5006CCA5A /* LelaTest-320x568@2x-iphone,iOS9.3.png */,
+				B031026B1D7EA892006CCA5A /* KIFTest.swift */,
+				B031026D1D7EA892006CCA5A /* Info.plist */,
+				B03102741D7EA9E5006CCA5A /* KIF-Briding-Header.h */,
+				B03102751D7EA9E5006CCA5A /* KIF-Briding-Header.m */,
+				B03102731D7EA9E5006CCA5A /* KIFTest-Bridging-Header.h */,
+			);
+			path = KIFTest;
+			sourceTree = "<group>";
+		};
 		B0FDE8C51D7D760A001DD43D = {
 			isa = PBXGroup;
 			children = (
 				B0FDE8D01D7D760A001DD43D /* CiSwift */,
 				B0FDE8E51D7D760A001DD43D /* CiSwiftTests */,
 				B0FDE8F01D7D760A001DD43D /* CiSwiftUITests */,
+				B031026A1D7EA891006CCA5A /* KIFTest */,
 				B0FDE8CF1D7D760A001DD43D /* Products */,
+				AE414ED657AB285D94E74EF6 /* Pods */,
+				EFF0EA8CC6714D0FAF1CA589 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,6 +168,7 @@
 				B0FDE8CE1D7D760A001DD43D /* CiSwift.app */,
 				B0FDE8E21D7D760A001DD43D /* CiSwiftTests.xctest */,
 				B0FDE8ED1D7D760A001DD43D /* CiSwiftUITests.xctest */,
+				B03102691D7EA891006CCA5A /* KIFTest.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -125,16 +204,51 @@
 			path = CiSwiftUITests;
 			sourceTree = "<group>";
 		};
+		EFF0EA8CC6714D0FAF1CA589 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FFFCA8333D96DC6A5E88BF4E /* Pods_CiSwift.framework */,
+				6EC7B3163D03861214A5AB5C /* Pods_CiSwift_KIFTest.framework */,
+				FB0747978BDAADED17720B68 /* Pods_CiSwiftTests.framework */,
+				622B11390732E23814AD1FD4 /* Pods_CiSwiftUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		B03102681D7EA891006CCA5A /* KIFTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B03102701D7EA892006CCA5A /* Build configuration list for PBXNativeTarget "KIFTest" */;
+			buildPhases = (
+				4255C427895A291A33EA3811 /* [CP] Check Pods Manifest.lock */,
+				B03102651D7EA891006CCA5A /* Sources */,
+				B03102661D7EA891006CCA5A /* Frameworks */,
+				B03102671D7EA891006CCA5A /* Resources */,
+				C86EF9DC97DE8D79F3E6A6D6 /* [CP] Embed Pods Frameworks */,
+				730A217531D283B0CF079541 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B031026F1D7EA892006CCA5A /* PBXTargetDependency */,
+			);
+			name = KIFTest;
+			productName = KIFTest;
+			productReference = B03102691D7EA891006CCA5A /* KIFTest.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		B0FDE8CD1D7D760A001DD43D /* CiSwift */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B0FDE8F61D7D760A001DD43D /* Build configuration list for PBXNativeTarget "CiSwift" */;
 			buildPhases = (
+				428C99311BFA82976B73B4F2 /* [CP] Check Pods Manifest.lock */,
 				B0FDE8CA1D7D760A001DD43D /* Sources */,
 				B0FDE8CB1D7D760A001DD43D /* Frameworks */,
 				B0FDE8CC1D7D760A001DD43D /* Resources */,
+				9632F5894A80A9DA63468287 /* [CP] Embed Pods Frameworks */,
+				F73A69B4853D5AE84E32A83E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +263,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B0FDE8F91D7D760A001DD43D /* Build configuration list for PBXNativeTarget "CiSwiftTests" */;
 			buildPhases = (
+				8D59A890375F19C269499567 /* [CP] Check Pods Manifest.lock */,
 				B0FDE8DE1D7D760A001DD43D /* Sources */,
 				B0FDE8DF1D7D760A001DD43D /* Frameworks */,
 				B0FDE8E01D7D760A001DD43D /* Resources */,
+				9CFAD3ABF3560FC15E3E00F9 /* [CP] Embed Pods Frameworks */,
+				85A09E6584706DE6BCDAB0B4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +284,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B0FDE8FC1D7D760A001DD43D /* Build configuration list for PBXNativeTarget "CiSwiftUITests" */;
 			buildPhases = (
+				5B5328DA82D88697ABAD8764 /* [CP] Check Pods Manifest.lock */,
 				B0FDE8E91D7D760A001DD43D /* Sources */,
 				B0FDE8EA1D7D760A001DD43D /* Frameworks */,
 				B0FDE8EB1D7D760A001DD43D /* Resources */,
+				DE7CFD7C658D216C1B79ADDE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -191,8 +310,13 @@
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Богдан Чайковский";
 				TargetAttributes = {
+					B03102681D7EA891006CCA5A = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = B0FDE8CD1D7D760A001DD43D;
+					};
 					B0FDE8CD1D7D760A001DD43D = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = LB8V6BYW89;
 					};
 					B0FDE8E11D7D760A001DD43D = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -220,17 +344,27 @@
 				B0FDE8CD1D7D760A001DD43D /* CiSwift */,
 				B0FDE8E11D7D760A001DD43D /* CiSwiftTests */,
 				B0FDE8EC1D7D760A001DD43D /* CiSwiftUITests */,
+				B03102681D7EA891006CCA5A /* KIFTest */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		B03102671D7EA891006CCA5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B03102871D7EB8E5006CCA5A /* LelaTest-320x568@2x-iphone,iOS9.3.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B0FDE8CC1D7D760A001DD43D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B0FDE8DC1D7D760A001DD43D /* LaunchScreen.storyboard in Resources */,
 				B0FDE8D91D7D760A001DD43D /* Assets.xcassets in Resources */,
+				B03102841D7EB8E5006CCA5A /* LelaTest-320x568@2x-iphone,iOS9.3.png in Resources */,
 				B0FDE8D71D7D760A001DD43D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,6 +373,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B03102851D7EB8E5006CCA5A /* LelaTest-320x568@2x-iphone,iOS9.3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,12 +381,190 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B03102861D7EB8E5006CCA5A /* LelaTest-320x568@2x-iphone,iOS9.3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4255C427895A291A33EA3811 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		428C99311BFA82976B73B4F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5B5328DA82D88697ABAD8764 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		730A217531D283B0CF079541 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CiSwift-KIFTest/Pods-CiSwift-KIFTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85A09E6584706DE6BCDAB0B4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CiSwiftTests/Pods-CiSwiftTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D59A890375F19C269499567 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9632F5894A80A9DA63468287 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CiSwift/Pods-CiSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CFAD3ABF3560FC15E3E00F9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CiSwiftTests/Pods-CiSwiftTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C86EF9DC97DE8D79F3E6A6D6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CiSwift-KIFTest/Pods-CiSwift-KIFTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE7CFD7C658D216C1B79ADDE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CiSwiftUITests/Pods-CiSwiftUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F73A69B4853D5AE84E32A83E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CiSwift/Pods-CiSwift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		B03102651D7EA891006CCA5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B031026C1D7EA892006CCA5A /* KIFTest.swift in Sources */,
+				B03102761D7EA9E5006CCA5A /* KIF-Briding-Header.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B0FDE8CA1D7D760A001DD43D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -280,6 +593,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		B031026F1D7EA892006CCA5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0FDE8CD1D7D760A001DD43D /* CiSwift */;
+			targetProxy = B031026E1D7EA892006CCA5A /* PBXContainerItemProxy */;
+		};
 		B0FDE8E41D7D760A001DD43D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = B0FDE8CD1D7D760A001DD43D /* CiSwift */;
@@ -312,6 +630,37 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		B03102711D7EA892006CCA5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E170C6C8DD1BC263B29127DE /* Pods-CiSwift-KIFTest.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = KIFTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bp.KIFTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "KIFTest/KIFTest-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CiSwift.app/CiSwift";
+			};
+			name = Debug;
+		};
+		B03102721D7EA892006CCA5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DBCD66B4F7700CC4D46D073 /* Pods-CiSwift-KIFTest.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = KIFTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bp.KIFTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "KIFTest/KIFTest-Bridging-Header.h";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CiSwift.app/CiSwift";
+			};
+			name = Release;
+		};
 		B0FDE8F41D7D760A001DD43D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -397,28 +746,37 @@
 		};
 		B0FDE8F71D7D760A001DD43D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6692B08603BE0C996A5C3E58 /* Pods-CiSwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = CiSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = bp.CiSwift;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bp.CiSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		B0FDE8F81D7D760A001DD43D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 944CBF4C8035A84E2D54DFFD /* Pods-CiSwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = CiSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = bp.CiSwift;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bp.CiSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
 		B0FDE8FA1D7D760A001DD43D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5414E623678AC2A632547626 /* Pods-CiSwiftTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = CiSwiftTests/Info.plist;
@@ -431,6 +789,7 @@
 		};
 		B0FDE8FB1D7D760A001DD43D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93D946A2631D799261282249 /* Pods-CiSwiftTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = CiSwiftTests/Info.plist;
@@ -443,6 +802,7 @@
 		};
 		B0FDE8FD1D7D760A001DD43D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C49FA90234F69FAD4FCFBA94 /* Pods-CiSwiftUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = CiSwiftUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -454,6 +814,7 @@
 		};
 		B0FDE8FE1D7D760A001DD43D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE5EF84C07EF54DE8D06DDFA /* Pods-CiSwiftUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = CiSwiftUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -466,6 +827,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		B03102701D7EA892006CCA5A /* Build configuration list for PBXNativeTarget "KIFTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B03102711D7EA892006CCA5A /* Debug */,
+				B03102721D7EA892006CCA5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		B0FDE8C91D7D760A001DD43D /* Build configuration list for PBXProject "CiSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -482,6 +852,7 @@
 				B0FDE8F81D7D760A001DD43D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B0FDE8F91D7D760A001DD43D /* Build configuration list for PBXNativeTarget "CiSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +861,7 @@
 				B0FDE8FB1D7D760A001DD43D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B0FDE8FC1D7D760A001DD43D /* Build configuration list for PBXNativeTarget "CiSwiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +870,7 @@
 				B0FDE8FE1D7D760A001DD43D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
